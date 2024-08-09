@@ -1,0 +1,100 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    justify-content: space-between;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+nav.heads a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: 500;
+    font-size: 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+
+nav.heads a:hover {
+    border-bottom: 3px solid #fff;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-box input[type="text"] {
+    border: none;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+}
+
+.search-box button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-box button:hover {
+    background-color: #0056b3;
+}
+section{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+section p{
+    text-align: justify;
+    width: [width of img];
+    position: absolute;
+}
+.breaking {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.breaking div {
+    margin: 10px;
+    width: 300px; /* Adjust width as needed */
+}
+.breaking img {
+    width: 400px; /* Ensures images are responsive */
+    height: 300px;
+
+}
+.breaking p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.politics{
+    margin-top: 20px;
+    display: flex;
+}
+.entertain{
+    display: flex;
+}
